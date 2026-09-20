@@ -1,0 +1,6 @@
+@TrabalhoC__HostAddress = http://localhost:5219
+
+GET {{TrabalhoC__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
