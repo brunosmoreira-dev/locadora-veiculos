@@ -61,6 +61,7 @@ namespace TrabalhoC_.Data
                 .HasOne(a => a.Veiculo)
                 .WithMany(v => v.Alugueis)
                 .HasForeignKey(a => a.VeiculoId);
+
         }
     }
 }
